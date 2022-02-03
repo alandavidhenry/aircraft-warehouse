@@ -1,0 +1,91 @@
+body, tbody, tfoot {
+    color: rgba(0, 34, 79, 1);
+}
+.navbar {
+    background-color: rgba(0, 34, 79, 1);
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.navbar-brand {
+    color: white;
+    background-color: rgba(0, 34, 79, 1);
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid turquoise;
+    padding-bottom: 0;
+}
+.nav-link-margin {
+    margin: 0 1.5rem;
+}
+.alert-primary {
+    background-color: rgba(216, 0, 0, 1);
+    border-color: rgba(60, 0, 0, 1);
+}
+.lgText, .smText {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.lgText {
+    margin: -20px 0;
+}
+.smText {
+    margin: 8px 0 -10px 0;
+    letter-spacing: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+    .lgText {
+        margin: -15px 0;
+    }
+    .smText {
+        letter-spacing: 0.3rem;
+    }
+}
+.card {
+    background-color: rgb(0, 34, 79, 0.7);
+    color: white;
+    border-color: white;
+    margin-top: 1rem;
+    text-align: center;
+}
+.card .list-group-item {
+    background-color: rgb(0, 34, 79, 0);
+    color: white;
+    border-color: white;
+}
+.btn-info {
+    background-color: white;
+    border-color: white;
+    color: rgba(0, 34, 79, 0.7);
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
+    color: white;
+    background-color: rgba(0, 34, 79, 1);
+    border-color: rgba(0, 34, 79, 1);
+}
+.btn-basket {
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+.btn-basket:hover, .btn-basket:focus, .btn-basket:active, .btn-basket.active {
+    color: green;
+    background-color: rgba(0, 128, 0, 0.3);
+    border-color: rgba(0, 128, 0, 1);
+}
+tfoot tr {
+    border-top: 2px solid rgba(0, 34, 79, 1);
+}
+.footer {
+    background-color: rgba(0, 34, 79, 1);
+    color: white;
+    font-size: 0.8rem;
+    height: auto;
+}
+.footer a {
+    color: white;
+}
+@media print {
+    .container {
+      width: auto;
+    }
+}

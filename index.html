@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aircraft Warehouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <script src="/js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand fs-3" href="#">Aircraft Warehouse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link mx-3 mt-2 fs-4 active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link mx-3 mt-2 fs-4" href="#">About Us</a>
+                    <a class="nav-link mx-3 mt-2 fs-4" href="#">Contact Us</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link mt-2 fs-4" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
+                            <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <div class="lgText fs-1">HUGE STOCK</div>
+            <div class="lgText fs-1">CLEARANCE!</div>
+            <div class="smText fs-5">UP TO 50% OFF</div>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        
+        <!-- Text -->
+        <h1>Unmissable deals on all our aircraft!</h1>
+        <p>Simply choose from the great offers below, add them to your basket and you'll soon be jetting off around the world.</p>
+        
+        <!-- Cards -->
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="https://i.ibb.co/hZFsWkx/card-Concorde.jpg" class="card-img-top" alt="Concorde">
+                    <div class="card-body">
+                        <h5 class="card-title">Concorde</h5>
+                        <p class="card-text">
+                           Looking for speed and luxury? With a maximum velocity greater than 
+                           Mach 2 you'll reach your destination in no time at all.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Max. Speed:</strong> 2,180 km/h</li>
+                            <li class="list-group-item"><strong>Max. Altitude:</strong> 18,288 m </li>
+                            <li class="list-group-item"><strong>Range:</strong> 7,245 km</li>
+                            <li class="list-group-item"><strong>Capacity:</strong> 128 passengers</li>
+                            <li class="list-group-item"><strong>Cost:</strong> from £23,000,000</li>
+                        </ul>
+                        <div class="d-grid col-xl-9 col-lg-11 col-md-5 mt-3 mx-auto">
+                            <button class="btn btn-info" type="button" data-bs-toggle="modal" data-bs-target="#concordeModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                </svg>
+                                <strong>CLICK FOR MORE INFO</strong>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="https://i.ibb.co/Q9sMBpb/card-Beluga.jpg" class="card-img-top" alt="Beluga">
+                    <div class="card-body">
+                        <h5 class="card-title">Beluga</h5>
+                        <p class="card-text">
+                            Need a bit more space? At double the size of a 
+                            blue whale, the Beluga can easily transport you and your seven pet elephants.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Max. Speed:</strong> 778 km/h</li>
+                            <li class="list-group-item"><strong>Max. Altitude:</strong> 10,670 m </li>
+                            <li class="list-group-item"><strong>Range:</strong> 4,260 km</li>
+                            <li class="list-group-item"><strong>Capacity:</strong> 7 elephants</li>
+                            <li class="list-group-item"><strong>Cost:</strong> from £200,000,000</li>
+                        </ul>
+                        <div class="d-grid col-xl-9 col-lg-11 col-md-5 mt-3 mx-auto">
+                            <button class="btn btn-info" type="button" data-bs-toggle="modal" data-bs-target="#belugaModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                </svg>
+                                <strong>CLICK FOR MORE INFO</strong>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="https://i.ibb.co/C57n5cy/card-Blackbird.jpg" class="card-img-top" alt="Blackbird">
+                    <div class="card-body">
+                        <h5 class="card-title">Blackbird</h5>
+                        <p class="card-text">
+                            Concorde not fast enough? The Blackbird will travel at over 
+                            2,200 mph getting you from London to LA in 2.5 hours.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Max. Speed:</strong> 3,529 km/h</li>
+                            <li class="list-group-item"><strong>Max. Altitude:</strong> 25,929 m </li>
+                            <li class="list-group-item"><strong>Range:</strong> 5,926 km</li>
+                            <li class="list-group-item"><strong>Capacity:</strong> 2 people</li>
+                            <li class="list-group-item"><strong>Cost:</strong> from £33,000,000</li>
+                        </ul>
+                        <div class="d-grid col-xl-9 col-lg-11 col-md-5 mt-3 mx-auto">
+                            <button class="btn btn-info" type="button" data-bs-toggle="modal" data-bs-target="#blackbirdModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                </svg>
+                                <strong>CLICK FOR MORE INFO</strong>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="https://i.ibb.co/LgLtvdh/card-B2-Spirit.jpg" class="card-img-top" alt="B2-Spirit">
+                    <div class="card-body">
+                        <h5 class="card-title">B2 Spirit</h5>
+                        <p class="card-text">
+                            Need something a bit more under the radar? Then the B2 
+                            Spirit will allow you to fly to Russia without them even knowing.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Max. Speed:</strong> 1,010 mph</li>
+                            <li class="list-group-item"><strong>Max. Altitude:</strong> 15,000 m </li>
+                            <li class="list-group-item"><strong>Range:</strong> 11,000 km</li>
+                            <li class="list-group-item"><strong>Capacity:</strong> 3 people</li>
+                            <li class="list-group-item"><strong>Cost:</strong> from £530,000,000</li>
+                        </ul>
+                        <div class="d-grid col-xl-9 col-lg-11 col-md-5 mt-3 mx-auto">
+                            <button class="btn btn-info" type="button" data-bs-toggle="modal" data-bs-target="#b2Modal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                </svg>
+                                <strong>CLICK FOR MORE INFO</strong>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img src="https://i.ibb.co/ZYQhsFs/card-Cri-Cri.jpg" class="card-img-top" alt="Cri-Cri">
+                    <div class="card-body">
+                        <h5 class="card-title">Cri Cri</h5>
+                        <p class="card-text">
+                            Carbon Neutral? The Cri Cri is powered by a battery powered 
+                            electric motor - just keep an eye out for those storm clouds!
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Max. Speed:</strong> 220km/h</li>
+                            <li class="list-group-item"><strong>Max. Altitude:</strong> 3,700 m </li>
+                            <li class="list-group-item"><strong>Range:</strong> 460 km</li>
+                            <li class="list-group-item"><strong>Capacity:</strong> 1 person</li>
+                            <li class="list-group-item"><strong>Cost:</strong> from £20,000</li>
+                        </ul>
+                        <div class="d-grid col-xl-9 col-lg-11 col-md-5 mt-3 mx-auto">
+                            <button class="btn btn-info" type="button" data-bs-toggle="modal" data-bs-target="#criModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                </svg>
+                                <strong>CLICK FOR MORE INFO</strong>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Concorde Modal -->
+        <div class="modal fade" id="concordeModal" tabindex="-1" aria-labelledby="concordeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h3 class="modal-title" id="concordeModalLabel">Concorde</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.ibb.co/hZFsWkx/card-Concorde.jpg" class="d-block w-100" alt="Concorde">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/BLdQcjy/LONDON-OCTOBER-23-A-British-Airways-Concorde-lifts-off-from-Heathrow-airport-on-one-of-it-s-last-eve.jpg" class="d-block w-100" alt="Concorde">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/BNxmC79/details-Concorde2.jpg" class="d-block w-100" alt="Concorde">
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                    <p class="card-text">
+                       Looking for speed and luxury? With a maximum velocity greater than 
+                       Mach 2 you'll reach your destination in no time at all.
+                    </p>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item"><strong>Max. Speed:</strong> 1200 mph</li>
+                        <li class="list-group-item"><strong>Max. Altitude:</strong> 10000 m </li>
+                        <li class="list-group-item"><strong>Range:</strong> 10000 km</li>
+                        <li class="list-group-item"><strong>Capacity:</strong> 200 passengers</li>
+                        <li class="list-group-item"><strong>Cost:</strong> from £23,000,000</li>
+                    </ul>
+                    <!-- Buy now! text -->
+                    <h2>Buy now!</h2>
+                    <!-- Quantity dropdown -->
+                    <select id="conQty" class="form-select mt-4" aria-label="Default select example" onchange="concordeTotal()">
+                        <option selected value="1">Choose the quantity required</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+
+                    <!-- Options check boxes -->
+                    <div class="mt-4">
+                        <h5>Optional extras</h5>
+                        <div class="list-group list-group-flush">
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 conCheckbox" name="conCheckbox" type="checkbox" value="100000" onchange="concordeTotal()">
+                            Leather seats <strong><em>+£100,000</em></strong>
+                            </label>
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 conCheckbox" name="conCheckbox" type="checkbox" value="50000" onchange="concordeTotal()">
+                            Professional kitchen <strong><em>+£50,000</em></strong>
+                            </label>
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 conCheckbox" name="conCheckbox" type="checkbox" value="500000" onchange="concordeTotal()">
+                            Industrial fire extinguisher system  <strong><em>+£500,000</em></strong>
+                            </label>
+                        </div>
+                    </div>
+                    <table class="table table-borderless fs-5 mt-3">
+                        <tbody>
+                            <tr>
+                                <td>Base price:</td>
+                                <td>£23000000</td>
+                            </tr>
+                            <tr>
+                                <td>Optional extras:</td>
+                                <td id="conOETotal">£0</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td><strong>Total price: </strong></td>
+                                <td><strong><span id="conTotal">£23000000</span></strong></td>
+                            </tr> 
+                        </tfoot>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <!-- Add to basket button-->
+                    <button type="button" class="btn btn-basket">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+                            <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                        &nbsp;&nbsp;Add to basket
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Beluga Modal -->
+        <div class="modal fade" id="belugaModal" tabindex="-1" aria-labelledby="belugaModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h3 class="modal-title" id="belugaModalLabel">Beluga</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.ibb.co/Q9sMBpb/card-Beluga.jpg" class="d-block w-100" alt="Beluga">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/VvRk9wL/details-Beluga1.jpg" class="d-block w-100" alt="Beluga">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/PrrkV9D/details-Beluga2.jpg" class="d-block w-100" alt="Beluga">
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                    <p class="card-text">
+                        Need a bit more space? At double the size of a blue whale, the Beluga can easily transport you and your seven pet elephants.
+                    </p>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item"><strong>Max. Speed:</strong> 778 km/h</li>
+                        <li class="list-group-item"><strong>Max. Altitude:</strong> 10,670 m </li>
+                        <li class="list-group-item"><strong>Range:</strong> 4,260 km</li>
+                        <li class="list-group-item"><strong>Capacity:</strong> 7 elephants</li>
+                        <li class="list-group-item"><strong>Cost:</strong> from £200,000,000</li>
+                    </ul>
+                    <!-- Buy now! text -->
+                    <h2>Buy now!</h2>
+                    <!-- Quantity dropdown -->
+                    <select id="belQty" class="form-select mt-4" aria-label="Default select example" onchange="belugaTotal()">
+                        <option selected value="1">Choose the quantity required</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+
+                    <!-- Options check boxes -->
+                    <div class="mt-4">
+                        <h5>Optional extras</h5>
+                        <div class="list-group list-group-flush">
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 belCheckbox" name="belCheckbox" type="checkbox" value="200000" onchange="belugaTotal()">
+                            Elephant harnesses <strong><em>+£200,000</em></strong>
+                            </label>
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 belCheckbox" name="belCheckbox" type="checkbox" value="100000" onchange="belugaTotal()">
+                            Extra seating <strong><em>+£100,000</em></strong>
+                            </label>
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 belCheckbox" name="belCheckbox" type="checkbox" value="400000" onchange="belugaTotal()">
+                            Extra wide opening door  <strong><em>+£400,000</em></strong>
+                            </label>
+                        </div>
+                    </div>
+                    <table class="table table-borderless fs-5 mt-3">
+                        <tbody>
+                            <tr>
+                                <td>Base price:</td>
+                                <td>£200000000</td>
+                            </tr>
+                            <tr>
+                                <td>Optional extras:</td>
+                                <td id="belOETotal">£0</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td><strong>Total price: </strong></td>
+                                <td><strong><span id="belTotal">£200000000</span></strong></td>
+                            </tr> 
+                        </tfoot>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <!-- Add to basket button-->
+                    <button type="button" class="btn btn-basket">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+                            <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                        &nbsp;&nbsp;Add to basket
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Blackbird Modal -->
+        <div class="modal fade" id="blackbirdModal" tabindex="-1" aria-labelledby="blackbirdModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h3 class="modal-title" id="blackbirdModalLabel">Blackbird</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.ibb.co/C57n5cy/card-Blackbird.jpg" class="d-block w-100" alt="Blackbird">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/VtvqrRH/details-Blackbird1.jpg" class="d-block w-100" alt="Blackbird">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/hCT5Ns5/details-Blackbird2.jpg" class="d-block w-100" alt="Blackbird">
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                    <p class="card-text">
+                        Concorde not fast enough? The Blackbird will travel at over 2,200 mph getting you from London to LA in 2.5 hours.
+                    </p>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item"><strong>Max. Speed:</strong> 3,529 km/h</li>
+                        <li class="list-group-item"><strong>Max. Altitude:</strong> 25,929 m </li>
+                        <li class="list-group-item"><strong>Range:</strong> 5,926 km</li>
+                        <li class="list-group-item"><strong>Capacity:</strong> 2 people</li>
+                        <li class="list-group-item"><strong>Cost:</strong> from £33,000,000</li>
+                    </ul>
+                    <!-- Buy now! text -->
+                    <h2>Buy now!</h2>
+                    <!-- Quantity dropdown -->
+                    <select id="bbQty" class="form-select mt-4" aria-label="Default select example" onchange="blackbirdTotal()">
+                        <option selected value="1">Choose the quantity required</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+
+                    <!-- Options check boxes -->
+                    <div class="mt-4">
+                        <h5>Optional extras</h5>
+                        <div class="list-group list-group-flush">
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 bbCheckbox" name="bbCheckbox" type="checkbox" value="6000000" onchange="blackbirdTotal()">
+                            Supercharged engines <strong><em>+£6,000,000</em></strong>
+                            </label>
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 bbCheckbox" name="bbCheckbox" type="checkbox" value="50000" onchange="blackbirdTotal()">
+                            Built in sick bags <strong><em>+£50,000</em></strong>
+                            </label>
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 bbCheckbox" name="bbCheckbox" type="checkbox" value="800000" onchange="blackbirdTotal()">
+                            Sat nav system  <strong><em>+£800,000</em></strong>
+                            </label>
+                        </div>
+                    </div>
+                    <table class="table table-borderless fs-5 mt-3">
+                        <tbody>
+                            <tr>
+                                <td>Base price:</td>
+                                <td>£33000000</td>
+                            </tr>
+                            <tr>
+                                <td>Optional extras:</td>
+                                <td id="bbOETotal">£0</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td><strong>Total price: </strong></td>
+                                <td><strong><span id="bbTotal">£33000000</span></strong></td>
+                            </tr> 
+                        </tfoot>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <!-- Add to basket button-->
+                    <button type="button" class="btn btn-basket">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+                            <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                        &nbsp;&nbsp;Add to basket
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+         <!-- B2 Spirit Modal -->
+         <div class="modal fade" id="b2Modal" tabindex="-1" aria-labelledby="b2ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h3 class="modal-title" id="b2ModalLabel">B2 Spirit</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="carousel slide mb-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.ibb.co/LgLtvdh/card-B2-Spirit.jpg" class="d-block w-100" alt="B2 Spirit">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/z4yRfrZ/A-B-2-A-Spirit-bomber-assigned-to-the-509th-Bomb-Wing-conduct-aerial-operations-in-support-of-Bomber.jpg" class="d-block w-100" alt="B2 Spirit">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ibb.co/fFypR0S/details-B2-Spirit2.jpg" class="d-block w-100" alt="B2 Spirit">
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                    <p class="card-text">
+                        Need something a bit more under the radar? Then the B2 Spirit will allow you to fly to Russia without them even knowing.
+                    </p>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item"><strong>Max. Speed:</strong> 1,010 mph</li>
+                        <li class="list-group-item"><strong>Max. Altitude:</strong> 15,000 m </li>
+                        <li class="list-group-item"><strong>Range:</strong> 11,000 km</li>
+                        <li class="list-group-item"><strong>Capacity:</strong> 3 people</li>
+                        <li class="list-group-item"><strong>Cost:</strong> from £530,000,000</li>
+                    </ul>
+                    <!-- Buy now! text -->
+                    <h2>Buy now!</h2>
+                    <!-- Quantity dropdown -->
+                    <select id="b2Qty" class="form-select mt-4" aria-label="Default select example" onchange="b2SpiritTotal()">
+                        <option selected value="1">Choose the quantity required</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+
+                    <!-- Options check boxes -->
+                    <div class="mt-4">
+                        <h5>Optional extras</h5>
+                        <div class="list-group list-group-flush">
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 b2Checkbox" name="b2Checkbox" type="checkbox" value="1000000" onchange="b2SpiritTotal()">
+                            Fluorescent green paint scheme <strong><em>+£1,000,000</em></strong>
+                            </label>
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 b2Checkbox" name="b2Checkbox" type="checkbox" value="4000000" onchange="b2SpiritTotal()">
+                            Extra fuel tanks <strong><em>+£4,000,000</em></strong>
+                            </label>
+                            <label class="list-group-item">
+                            <input class="form-check-input me-1 b2Checkbox" name="b2Checkbox" type="checkbox" value="100000" onchange="b2SpiritTotal()">
+                            Comfort seats  <strong><em>+£100,000</em></strong>
+                            </label>
+                        </div>
+                    </div>
+                    <table class="table table-borderless fs-5 mt-3">
+                        <tbody>
+                            <tr>
+                                <td>Base price:</td>
+                                <td>£530000000</td>
+                            </tr>
+                            <tr>
+                                <td>Optional extras:</td>
+                                <td id="b2OETotal">£0</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td><strong>Total price: </strong></td>
+                                <td><strong><span id="b2Total">£530000000</span></strong></td>
+                            </tr> 
+                        </tfoot>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <!-- Add to basket button-->
+                    <button type="button" class="btn btn-basket">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+                            <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                        &nbsp;&nbsp;Add to basket
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+                 <!-- Cri Cri Modal -->
+                 <div class="modal fade" id="criModal" tabindex="-1" aria-labelledby="criModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="criModalLabel">Cri Cri</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="carousel slide mb-3" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://i.ibb.co/ZYQhsFs/card-Cri-Cri.jpg" class="d-block w-100" alt="Cri Cri">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.ibb.co/rxNFSwM/details-Cri-Cri1.jpg" class="d-block w-100" alt="Cri Cri">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.ibb.co/ZLHcV9h/details-Cri-Cri2.jpg" class="d-block w-100" alt="Cri Cri">
+                                </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </a>
+                            </div>
+                            <p class="card-text">
+                                Carbon Neutral? The Cri Cri is powered by a battery powered electric motor - just keep an eye out for those storm clouds!
+                            </p>
+                            <ul class="list-group list-group-flush mb-4">
+                                <li class="list-group-item"><strong>Max. Speed:</strong> 220km/h</li>
+                                <li class="list-group-item"><strong>Max. Altitude:</strong> 3,700 m </li>
+                                <li class="list-group-item"><strong>Range:</strong> 460 km</li>
+                                <li class="list-group-item"><strong>Capacity:</strong> 1 person</li>
+                                <li class="list-group-item"><strong>Cost:</strong> from £20,000</li>
+                            </ul>
+                            <!-- Buy now! text -->
+                            <h2>Buy now!</h2>
+                            <!-- Quantity dropdown -->
+                            <select id="criQty" class="form-select mt-4" aria-label="Default select example" onchange="criCriTotal()">
+                                <option selected value="1">Choose the quantity required</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+        
+                            <!-- Options check boxes -->
+                            <div class="mt-4">
+                                <h5>Optional extras</h5>
+                                <div class="list-group list-group-flush">
+                                    <label class="list-group-item">
+                                    <input class="form-check-input me-1 criCheckbox" name="criCheckbox" type="checkbox" value="2000" onchange="criCriTotal()">
+                                    Parachute <strong><em>+£2,000</em></strong>
+                                    </label>
+                                    <label class="list-group-item">
+                                    <input class="form-check-input me-1 criCheckbox" name="criCheckbox" type="checkbox" value="800" onchange="criCriTotal()">
+                                    Weather ubscription service<strong><em>+£800</em></strong>
+                                    </label>
+                                    <label class="list-group-item">
+                                    <input class="form-check-input me-1 criCheckbox" name="criCheckbox" type="checkbox" value="500" onchange="criCriTotal()">
+                                    Life insurance policy  <strong><em>+£500</em></strong>
+                                    </label>
+                                </div>
+                            </div>
+                            <table class="table table-borderless fs-5 mt-3">
+                                <tbody>
+                                    <tr>
+                                        <td>Base price:</td>
+                                        <td>£20000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Optional extras:</td>
+                                        <td id="criOETotal">£0</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td><strong>Total price: </strong></td>
+                                        <td><strong><span id="criTotal">£20000</span></strong></td>
+                                    </tr> 
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- Add to basket button-->
+                            <button type="button" class="btn btn-basket">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+                                    <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+                                </svg>
+                                &nbsp;&nbsp;Add to basket
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+    
+        <!-- Footer -->
+        <div class="footer row align-items-center ms-0 me-0 mt-4">
+                <p class="footer-text text-center mt-2">
+                    © 2021 Alan Henry. All rights reserved.<br>
+                    Website by <a href="#">Alan Henry</a>
+                </p>
+            </div>
+        </div>   
+    
+    <!-- Container closing div 
+    </div>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
